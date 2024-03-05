@@ -1,0 +1,38 @@
+.row{
+    margin-left: 20px;
+    color: white;
+margin-top: 20px
+}
+.posters{
+    /* to show the multiple in row wise */
+display: flex;
+padding: 20px;
+overflow-x: scroll;
+overflow-y: hidden;
+
+
+}
+/* to emove the scrollbar */
+.posters::-webkit-scrollbar{
+    display: none;
+}
+.poster{
+    max-height: 250px;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+
+
+}
+.poster:hover{
+    transform: scale(1.1);
+}
+.small-poster{
+    max-height: 150px;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+.small-poster:hover{
+    transform: scale(1.1);
+}
