@@ -1,7 +1,7 @@
 .row{
     margin-left: 20px;
     color: white;
-margin-top: 20px
+margin-top: 20px;
 }
 .posters{
     /* to show the multiple in row wise */
@@ -35,4 +35,16 @@ overflow-y: hidden;
 }
 .small-poster:hover{
     transform: scale(1.1);
+}
+.arrows{
+    background-color: white;
+    opacity: 50%;
+    cursor: pointer;
+    left:0;
+}
+.RightArrow{
+    background-color: white;
+    opacity: 50%;
+    cursor: pointer;
+    right: 0;
 }
