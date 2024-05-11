@@ -4,7 +4,7 @@ import './App.css';
 import Banner from './components/banner/banner';
 import Rowpost from './components/Rowpost/rowpost';
 import {originals,action,comedy,horror} from './urls'
-
+ import Footer from './components/footer/footer'
 function App() {
 
   return (
@@ -17,8 +17,7 @@ function App() {
       <Rowpost url={action} title="Action" isSmall />
       <Rowpost url={comedy} title="Comedy Movies" isSmall />
       <Rowpost url={horror} title="Horror Movies" isSmall />
-
-    </div>
+      <Footer />    </div>
   );
 }
 
